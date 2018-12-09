@@ -1,7 +1,8 @@
 import numpy as np
 
-a= np.arange(1,5)
+a = np.arange(1, 5)
 print(a)
+
 
 def softmax(L):
     expL = np.exp(L)
@@ -13,6 +14,6 @@ def softmax(L):
         result.append(i*1.0/sumExpL)
     return result
 
+
 softmax(a)
 print(softmax(a))
-    
